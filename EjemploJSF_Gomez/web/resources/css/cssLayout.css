@@ -1,0 +1,173 @@
+
+body {
+    background-image: url('https://img.freepik.com/vector-gratis/banner-moderno-diseno-abstracto-baja-poli_1048-14340.jpg?w=1060&t=st=1686340840~exp=1686341440~hmac=ff55a7b499a4ac72b38adb27aa9f9f76bf6f45e493beab90abd55303440ce3cb');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+#top {
+    position: relative;
+    color: #045491;
+    padding: 5px;
+    height: 150px;
+    margin: 0px 0px 10px 0px;
+    background-image: url('https://i.pinimg.com/564x/2b/f1/42/2bf1422598e3129ec9052c560640d366.jpg');
+    background-size: 100px auto; /* Ajusta el tamaño deseado de la imagen */
+    background-repeat: no-repeat;
+
+
+}
+.centered-heading {
+    text-align: center;
+    color: red;
+}
+
+#bottom {
+    position: relative;
+  
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    height: 100px;
+    margin: 10px 0px 0px 0px;
+}
+
+#left {
+    float: left;
+   
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    height: 400px;
+    width: 150px;
+
+}
+
+#right {
+    float: right;
+   background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    height: 400px;
+    width: 150px;
+
+}
+
+.center_content {
+    position: relative;
+
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+
+}
+
+.left_content {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    margin-left: 170px;
+}
+
+.right_content {
+  background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    height: 400px;
+    width: 1000px;
+    margin: 0px 170px 0px 170px;
+}
+
+#top a:link, #top a:visited {
+    color: white;
+    font-weight : bold;
+    text-decoration: none;
+    
+}
+
+#top a:link:hover, #top a:visited:hover  {
+    color: black;
+    font-weight : bold;
+    text-decoration : underline;
+
+}
+/* .top-image {
+        background-image: url('https://i.pinimg.com/564x/7c/3e/3f/7c3e3ffc38cc516eb1d8562f6400b858.jpg');
+}*/
+
+.box {
+  width: 100px;
+  aspect-ratio: 1;
+  clip-path: polygon(93.30% 75.00%,50.00% 100.00%,6.70% 75.00%,6.70% 25.00%,50.00% 0.00%,93.30% 25.00%,93.30% 75.00%,90.70% 26.50%,50.00% 3.00%,9.30% 26.50%,9.30% 73.50%,50.00% 97.00%,90.70% 73.50%,90.70% 26.50%);
+  display: grid;
+}
+.box:before {
+  content: "";
+  background: conic-gradient(#000 30%,hsl(0 100% 70%) 90%,#000);
+  animation: r 2s ease-in-out infinite;
+}
+@keyframes r {
+  to {
+    rotate: 1turn;
+    filter: hue-rotate(1turn);
+  }
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+
+
+p {
+  background-image: url(https://images.pexels.com/photos/68147/waterfall-thac-dray-nur-buon-me-thuot-daklak-68147.jpeg?auto=compress&cs=tinysrgb&w=600);
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  color: transparent;
+  margin-top: 30px;
+  font-size: 60px;
+  background-size: cover;
+  background-position : left;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+}
+
+.card {
+  width: 190px;
+  height: 254px;
+  background: #07182E;
+  position: relative;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.card h2 {
+  z-index: 1;
+  color: #fff;
+  font-size: 1em;
+}
+
+.card::before {
+  content: '';
+  position: absolute;
+  width: 100px;
+  background-image: linear-gradient(180deg, rgb(0, 183, 255), rgb(255, 48, 255));
+  height: 130%;
+  animation: rotBGimg 3s linear infinite;
+  transition: all 0.2s linear;
+}
+
+@keyframes rotBGimg {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.card::after {
+  content: '';
+  position: absolute;
+  background: #07182E;
+  inset: 5px;
+  border-radius: 15px;
+} 
