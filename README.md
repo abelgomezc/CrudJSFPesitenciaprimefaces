@@ -22,4 +22,7 @@ INSERT INTO empleado (nombre, id_dep) VALUES ('Carlos Ramírez', 1);
 INSERT INTO empleado (nombre, id_dep) VALUES ('María González', 2);
 INSERT INTO empleado (nombre, id_dep) VALUES ('Luis Torres', 3);
 INSERT INTO empleado (nombre, id_dep) VALUES ('Abel Gomez', 3);
+
+----------------------------------------------------------
+configuracion para Jelastic
 ![image](https://github.com/abelgomezc/CrudJSFPesitenciaprimefaces/assets/121979015/9f25b007-4a2a-4dee-8032-effac355f43f)
