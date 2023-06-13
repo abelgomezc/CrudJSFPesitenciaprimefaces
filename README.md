@@ -26,3 +26,7 @@ INSERT INTO empleado (nombre, id_dep) VALUES ('Abel Gomez', 3);
 ----------------------------------------------------------
 configuracion para Jelastic
 ![image](https://github.com/abelgomezc/CrudJSFPesitenciaprimefaces/assets/121979015/9f25b007-4a2a-4dee-8032-effac355f43f)
+
+-------------------------------------------------------------------------
+![image](https://github.com/abelgomezc/CrudJSFPesitenciaprimefaces/assets/121979015/14296769-bc2f-438d-b1ff-c9ff287e6405)
+
